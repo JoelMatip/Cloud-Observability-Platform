@@ -1,0 +1,16 @@
+{"level":"info","message":"Service running","port":3000,"timestamp":"2025-11-29T16:08:40.474Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-11-29T16:10:20.809Z","url":"/health"}
+{"level":"info","message":"Health check","status":"UP","timestamp":"2025-11-29T16:10:20.823Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-11-29T16:10:22.330Z","url":"/favicon.ico"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-11-29T16:10:48.719Z","url":"/api/data"}
+{"data":{"message":"Observability demo","timestamp":"2025-11-29T16:10:48.731Z"},"level":"info","message":"Served data","timestamp":"2025-11-29T16:10:48.731Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-11-29T16:11:03.420Z","url":"/api/error"}
+{"code":"DEMO_ERROR","level":"error","message":"Simulated error","timestamp":"2025-11-29T16:11:03.424Z"}
+{"level":"info","message":"Service running","port":3000,"timestamp":"2025-12-06T13:35:15.386Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-12-06T13:36:39.270Z","url":"/api/error"}
+{"code":"DEMO_ERROR","level":"error","message":"Simulated error","timestamp":"2025-12-06T13:36:39.313Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-12-06T13:36:56.647Z","url":"/health"}
+{"level":"info","message":"Health check","status":"UP","timestamp":"2025-12-06T13:36:56.650Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-12-06T13:37:16.164Z","url":"/api/data"}
+{"data":{"message":"Observability demo","timestamp":"2025-12-06T13:37:16.166Z"},"level":"info","message":"Served data","timestamp":"2025-12-06T13:37:16.166Z"}
+{"level":"info","message":"Incoming request","method":"GET","timestamp":"2025-12-06T13:37:29.248Z","url":"/metrics"}
