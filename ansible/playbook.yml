@@ -1,0 +1,11 @@
+- name: Configure monitoring node
+  hosts: all
+  tasks:
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
