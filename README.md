@@ -30,6 +30,22 @@ Companies need 24/7 visibility into their systems. This platform:
 
 > 📁 All screenshots are stored in the `/docs` folder.
 
+## 📂 Docs Folder — Screenshot Reference
+
+The `/docs` folder contains real screenshots from the observability stack, showcasing monitoring, alerting, and logging in action:
+
+| Screenshot | Description |
+|------------|-------------|
+| **Grafana_Dashboard.png** | System metrics dashboard (CPU, memory, latency) with drill‑down panels |
+| **grafana-cluster-dashboard.png** | Cluster‑level overview of resource usage across nodes |
+| **grafana-node-dashboard.png** | Node‑specific metrics (CPU, memory, disk I/O) |
+| **grafana-pod-dashboard.png** | Pod‑level monitoring for Kubernetes workloads |
+| **prometheus-targets1.png / targets2.png / targets3.png** | Prometheus scrape targets showing active endpoints |
+| **prometheus_alerts_.png** | Prometheus alert view with triggered rules |
+| **alertmanager_active_alerts.png** | Alertmanager interface showing active alerts |
+| **slack-alerts-part1.png / part2.png** | Slack notifications routed from Alertmanager |
+| **ELK Dashboard.png / Elasticsearch.png / Kibana Dashboard.png** | Log aggregation and search via OpenSearch/ELK stack |
+| **Observability_Dashboard.png / Observability_DataTable.png** | Combined observability views correlating metrics and logs |
 ---
 
 ## 🏗️ Technology Stack
